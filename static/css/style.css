@@ -30,7 +30,7 @@ body {
     background-color: #5300c1;
 }
 
-#login-card input[type=text], select {
+#login-card input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -54,4 +54,25 @@ body {
 #login-card input[type=submit]:hover {
     background-color: #5300c1;
     max-width: 30em;
+}
+
+img {
+    border-radius: 50%;
+}
+
+#title {
+    font-size: 5em;
+    font-family: 'Germania One', cursive;
+    text-decoration: underline;
+}
+
+#logo {
+    font-family: 'Germania One', cursive;
+    font-weight: bold;
+}
+
+#bluff {
+    font-size: 1.5em;
+    font-family: 'Germania One', cursive;
+    width: 70%;
 }
